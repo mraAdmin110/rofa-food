@@ -1,0 +1,47 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Login */
+.login {
+  margin: 10% auto;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: #ff3838;
+  color: white;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .navbar-brand:hover {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #fffa65;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #fffa65;
+}
+
+/* CSS Konten */
+/* .kotak {
+  background-color: #ecf0f1;
+} */
+
+/* CSS Footer */
+.footer {
+  background-color: #ff3838;
+  color: white;
+}

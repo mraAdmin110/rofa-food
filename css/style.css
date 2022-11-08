@@ -1,0 +1,70 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: white;
+  color: white;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: black  ;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: goldenrod;
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: goldenrod;
+}
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url("../images/backgroundRofaPutih.png");
+  background-size: cover;
+}
+
+.btn-hero {
+  background-color: goldenrod;
+  border-color: goldenrod;
+}
+
+.btn-hero:hover {
+  background-color: gold;
+  border-color: gold;
+}
+
+/* produk */
+.card a {
+  color: black;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+/* tentang */
+.tentang .jumbotron {
+  background-image: url("../images/backgroundRofa.png");
+  background-size: cover;
+}
+
+.tentang-1 img {
+  border-radius: 20px;
+}
+
+.tentang-1 p {
+  font-size: 20px;
+}
+
+.tentang-1 .gambar-1 img {
+  max-width: 100%;
+  height: auto;
+}
